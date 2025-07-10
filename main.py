@@ -10,7 +10,7 @@ st.title("📈 Professional Trading Journal Dashboard")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_excel("data/pro_trading_journal_data.xlsx")
+    return pd.read_excel("pro_trading_journal_data.xlsx")
 
 df = load_data()
 
